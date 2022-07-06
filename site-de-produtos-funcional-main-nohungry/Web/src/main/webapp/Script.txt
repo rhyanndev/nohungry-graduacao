@@ -1,0 +1,54 @@
+CREATE TABLE usuarios(
+  	user_codigo serial NOT NULL,
+  	user_name varchar(60) NOT NULL,
+  	user_senha varchar(30) NOT NULL,
+  	user_email varchar(60) NOT NULL,
+  	user_uf character varying(2) NOT NULL,
+  	user_rua varchar(30) NOT NULL,	
+	user_telefone varchar(13),
+ 	user_foto text,
+	
+	user_dinheiro money,
+	
+  constraint pk_usuario primary key (user_codigo)
+	
+);
+INSERT INTO produtos (produto_nome,produto_tipo,produto_descricao,produto_preco,produto_foto,produto_avaliacao,produto_qnt_votos)
+VALUES ('Banana Assada', 'Saudavel','Banana Comprida assada com canela e açúcar', '10',null,'4.0',1)
+CREATE TABLE produtos(
+	produto_codigo serial NOT NULL,
+	produto_nome varchar(30) NOT NULL,
+	produto_tipo varchar(30) NOT NULL,
+	produto_descricao text,
+	produto_preco money,
+	produto_foto text,
+	produto_avaliacao decimal, 
+	produto_qnt_votos int,
+	produto_carrinho bool,
+	constraint pk_produto primary key (produto_codigo)
+)
+
+CREATE TABLE carrinho(
+	carrinho_codigo serial,
+	carrinho_alerta bool,
+	codigo_user int NOT NULL,
+	codigo_produto int NOT NULL,
+	
+	constraint pk_carrinho primary key (carrinho_codigo),
+	FOREIGN KEY (codigo_user) REFERENCES usuarios (user_codigo),
+	FOREIGN KEY (codigo_produto) REFERENCES produtos (produto_codigo)
+)
+SELECT * FROM produtos
+DROP TABLE produtos
+DROP TABLE usuarios
+DROP TABLE carrinho
+
+INSERT INTO carrinho(codigo_user, codigo_produto) VALUES(2, 3)
+UPDATE usuarios SET user_dinheiro = 20 where user_codigo = 1
+ALTER TABLE produtos ADD produto_carrinho bool;
+ALTER TABLE usuarios DROP COLUMN user_money;
+
+SELECT produtos.* from produtos, usuarios, carrinho
+where produtos.produto_codigo = carrinho.codigo_produto
+  and carrinho.codigo_user = usuarios.user_codigo
+  and usuarios.user_codigo = 2

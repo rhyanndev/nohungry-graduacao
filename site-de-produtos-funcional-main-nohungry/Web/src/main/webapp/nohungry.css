@@ -1,0 +1,234 @@
+@font-face {
+  font-family: "Mustica";
+  src: url(MusticaPro-SemiBold.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: SandyBrown;
+}
+.logo{
+	top: -20px;
+	position:absolute;
+	margin-bottom:80px;
+	width:125px;
+	height:125px;
+	
+}
+
+.user{
+	top: -20px;
+	position:absolute;
+	margin-bottom:80px;
+	width:125px;
+	height:125px;
+	
+}
+.logodiv{
+	
+	display:block;
+	width:100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cabecalho {
+  background-color: NavajoWhite;
+  color: #8B4513;
+  margin-top:30px;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  height: 80px;
+  margin-bottom: 120px;
+}
+.cabecalho h2 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+.lateral {
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+}
+.lateral > li {
+  display: inline-block;
+  font-family: Mustica, ABeeZee, sans-serif;
+  list-style: none;
+  margin-right: 15px;
+  padding: 15px 15px;
+  font-size: 15px;
+  color: #8B4513;
+  text-transform: uppercase;
+}
+.lateral > li:hover {
+  border: 3px solid white;
+  color: NavajoWhite;
+  background-color: #8B4513;
+  border-radius: 8px;
+}
+
+#pecja {
+  text-align: center;
+  background-color: #8B4513;
+  color: NavajoWhite;
+  padding: 0px 5px 0px;
+  margin-bottom: 0;
+  font-family: Mustica, ABeeZee, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 10px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+#carouselExampleCaptions {
+  margin: 0px 70px 0px;
+}
+.carousel-inner {
+  background-color: NavajoWhite;
+  margin-bottom: 100px;
+}
+.carousel-inner > .carousel-item {
+  padding: 20px 100px 20px;
+  background-color: NavajoWhite;
+}
+.carousel-inner > .carousel-item > img {
+  max-width: 700px;
+  max-height: 650px;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.carousel-inner > .carousel-item > .massas {
+  color: #8B4513;
+  position: absolute;
+  right: 120px;
+  bottom: 200px;
+  font-size: 80px;
+  font-family: Mustica, ABeeZee, sans-serif;
+}
+.carousel-inner > .carousel-item > .saud {
+  color: #8B4513;
+  position: absolute;
+  right: 50px;
+  bottom: 200px;
+  font-size: 80px;
+  font-family: Mustica, ABeeZee, sans-serif;
+}
+.carousel-inner > .carousel-item > .lanche {
+  color: #8B4513;
+  position: absolute;
+  right: 90px;
+  bottom: 200px;
+  font-size: 80px;
+  font-family: Mustica, ABeeZee, sans-serif;
+}
+
+.icones {
+  margin: 300px 0px 300px;
+}
+.icones > h1 {
+  text-align: center;
+  font-family: Mustica, ABeeZee, sans-serif;
+  text-transform: uppercase;
+  background-color: NavajoWhite;
+  color: #8B4513;
+  padding: 10px;
+  margin: 0px 70px 5px;
+}
+.icones > p {
+    color: #8B4513;
+  text-align: center;
+  font-weight: bold;
+  font-family: Mustica, ABeeZee, sans-serif;
+}
+.icon {
+  display: inline-block;
+  text-align: center;
+  font-family: Mustica, ABeeZee, sans-serif;
+}
+.icon > h4 {
+  margin-top: 10px;
+}
+.iconet {
+  width: 200px;
+  height: 200px;
+  margin: 0px 123px 0px;
+}
+
+.logecad {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  padding: 0px 10px;
+}
+
+.btl {
+  text-transform: uppercase;
+  font-size: 15px;
+  background-color: rgb(32, 155, 94);
+  color: white;
+  border: solid 2px white;
+  border-radius: 8px;
+  font-family: Mustica, ABeeZee, sans-serif;
+}
+.btr {
+  text-transform: uppercase;
+  font-size: 15px;
+  background-color: rgb(224, 19, 19);
+  color: rgb(255, 255, 255);
+  border: solid 2px white;
+  border-radius: 8px;
+  color: white;
+  font-family: Mustica, ABeeZee, sans-serif;
+}
+
+.btl:hover:hover {
+  background-color: white;
+  color: rgb(32, 155, 94);
+}
+.btr:hover:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(224, 19, 19);
+}
+
+.rodape {
+  height: 260px;
+  box-sizing: border-box;
+  background-color: #ffdead;
+}
+.textorodape {
+  color: black;
+  font-size: 13px;
+  text-align: center;
+}
+#alin {
+  color: #8B4513;;
+}
+.redestext {
+  color: #8B4513;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Mustica, ABeeZee, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 25px;
+}
+.redesociais {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.redesocial {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 14%;
+  margin-right: 14%;
+}

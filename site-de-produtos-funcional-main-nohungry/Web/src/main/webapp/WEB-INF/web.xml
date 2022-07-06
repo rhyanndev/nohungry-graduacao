@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>Web</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ServerLogin</display-name>
+    <servlet-name>ServerLogin</servlet-name>
+    <servlet-class>br.com.projetowebjspdao.servlets.ServerLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServerLogin</servlet-name>
+    <url-pattern>/ServerLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServerUserPainel</display-name>
+    <servlet-name>ServerUserPainel</servlet-name>
+    <servlet-class>br.com.projetowebjspdao.servlets.ServerUserPainel</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServerUserPainel</servlet-name>
+    <url-pattern>/ServerUserPainel</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServerCatalogo</display-name>
+    <servlet-name>ServerCatalogo</servlet-name>
+    <servlet-class>br.com.projetowebjspdao.servlets.ServerCatalogo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServerCatalogo</servlet-name>
+    <url-pattern>/ServerCatalogo</url-pattern>
+  </servlet-mapping>
+</web-app>

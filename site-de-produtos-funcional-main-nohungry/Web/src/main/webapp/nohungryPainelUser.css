@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Mustica";
+  src: url(MusticaPro-SemiBold.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: SandyBrown;
+}
+.logo{
+	top: -20px;
+	position:absolute;
+	margin-bottom:80px;
+	width:125px;
+	height:125px;
+	
+}
+
+.user{
+	top: -20px;
+	position:absolute;
+	margin-bottom:80px;
+	width:125px;
+	height:125px;
+	
+}
+.infoUser{
+	border: 2px solid black;
+	display:block;
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.dadosPessoais{
+	border: 2px solid black;
+	display:block;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.dadosPessoais p{
+	position: relative;
+	width: 80%;
+	border: 2px solid black;
+}
+.logodiv{
+	
+	display:block;
+	width:100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cabecalho {
+  background-color: NavajoWhite;
+  color: #8B4513;
+  margin-top:30px;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  height: 80px;
+  margin-bottom: 120px;
+}
+.cabecalho h2 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+

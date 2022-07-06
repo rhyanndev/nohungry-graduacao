@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Mustica";
+  src: url(MusticaPro-SemiBold.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: sans-serif;
+  background-color: SandyBrown;
+}
+.logo{
+	top:0px;
+	position:absolute;
+	margin-bottom:80px;
+	width:125px;
+	height:125px;
+	
+}
+
+.user{
+	top: -20px;
+	position:absolute;
+	margin-bottom:80px;
+	width:125px;
+	height:125px;
+	
+}
+#userImg{
+	padding:15px;
+	border: 5px solid navajowhite;
+	border-radius: 50%;
+	margin-top: 15px;
+}
+.infoUser{
+	border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display:block;
+	width: 50%;
+	height: 700px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 200px;
+	background-color: #8B4513;
+}
+.dadosPessoais{
+	display:block;
+	width: 80%;
+	height: 350px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.dadosPessoais p{
+	margin-top: 10px;
+	position: relative;
+	width: 80%;
+	font-size: 25px;
+	background-color: navajowhite;
+	color: #8B4513;
+	text-align: center;
+	border-radius: 20px;
+
+}
+.campos{
+	width:80%; margin-right:auto; margin-left:auto; margin-top: 30px; color: red;
+}
+.logodiv{
+	
+	display:block;
+	width:100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cabecalho {
+  background-color: NavajoWhite;
+  color: #8B4513;
+  margin-top:0px;
+  position: relative;
+  width: 100%;
+  padding: 0px 0px 20px;
+  height: 105px;
+  margin-bottom: 120px;
+  border-bottom: 5px solid #8B4513;
+}
+.cabecalho h2 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+.formdowm {
+	
+	background-color: NavajoWhite;
+	height: 60px;
+	width: 100%;
+	border-radius: 0px 0px 20px 20px;
+  }
+#btn{
+	width: 200px;
+	height: 30px;
+	color: navajowhite;
+	background-color:#8B4513;
+	letter-spacing: 3px;
+	margin-top: 15px;
+	font-size: 15px;
+	text-transform: uppercase;
+	border: 0px;
+	border-radius: 10px;
+}
+#btn:hover{
+	background-color: white;
+  border: 2px solid royalblue;
+  color: royalblue;
+}
+

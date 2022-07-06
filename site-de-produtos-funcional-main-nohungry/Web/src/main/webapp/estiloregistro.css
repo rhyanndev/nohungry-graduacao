@@ -1,0 +1,274 @@
+@charset "ISO-8859-1";
+@font-face {
+  font-family: "Mustica";
+  src: url(MusticaPro-SemiBold.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+} 
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: SandyBrown;
+  font-family: Mustica, Arial, Helvetica, sans-serif;
+}
+
+.Registro {
+  margin-top: 80px;
+}
+.Registro h1 {
+  text-align: center;
+  color: #8B4513;
+}
+.Rapidinho {
+  color: #8B4513;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Mustica, Arial, sans-serif;
+  padding: 5px;
+ 
+}
+
+.cabecalho {
+
+  background-color: NavajoWhite;
+  color: #8B4513;
+  margin-top:0px;
+  position: relative;
+  width: 100%;
+  padding: 0px 0px 20px;
+  height: 105px;
+  margin-bottom: 120px;
+  border-bottom: 5px solid #8B4513;
+ 
+}
+.logo {
+  top: 0px;
+  position: absolute;
+  margin-bottom: 80px;
+  width:125px;
+	height:125px;
+
+}
+.logodiv{
+	display:block;
+	width:100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Form {
+  background-color: #8B4513;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  width: 1000px;
+  height: 450px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0px 10px;
+}
+.FormDown {
+  position: relative;
+  top: 10px;
+  background-color: NavajoWhite;
+  height: 80px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+  
+input, select{
+	height: 35px;
+	width: 200px;
+	border-radius: 10px;
+}
+form p{
+	display: inline-block;
+  padding: 30px;
+  color: navajowhite;
+  tex
+}
+#Inome{
+	width: 220px;
+  border: none;
+}
+#nome{
+	margin-left:40px;
+  color: navajowhite;
+}
+#email{
+	margin-left:30px;
+  color: navajowhite;
+}
+#Iemail{
+	width: 330px;
+  border: none;
+}
+#telefone{
+	margin-left:40px;
+  color: navajowhite;
+}
+#Itelefone{
+	width: 220px;
+  border: none;
+}
+#uf{
+	margin-left:30px;
+  color: navajowhite;
+}
+#Iuf{
+	width: 50px;
+  border: none;
+}
+#rua{
+  padding: 0px;
+	margin-left: 5px;
+  color: navajowhite;
+}
+#Irua{
+	width: 300px;
+  border: none;
+
+}
+#senha{
+	margin-left:40px;
+  color: navajowhite;
+}
+#Isenha{
+	width: 210px;
+  border: none;
+}
+#senha2{
+	margin-left: 7px;
+  
+}
+#Isenha2{
+	width: 210px;
+  border: none;
+
+}
+#Ihomem{
+	width: 20px;
+	height: 20px;
+  border: none;
+}
+#Imulher{
+	width: 20px;
+	height: 20px;
+  border: none;
+}
+#registrar, #limparcampos{
+  margin-top: 20px;
+  border: 1px solid navajowhite;
+  color: navajowhite;
+  background-color: #8B4513;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+}
+#registrar{
+  position: absolute;
+  left: 220px;
+}
+#registrar:hover{
+background-color: green;
+color: white;
+border: 2px solid white;
+
+}
+#limparcampos{
+  position: absolute;
+  right: 220px;
+}
+#limparcampos:hover{
+  background-color: #747474;
+  color: #cecece;
+  border: 2px solid #cecece;
+}
+#emailL{
+  color: navajowhite;
+  position: absolute;
+  left: 475px;
+  top: 375px;
+  font-size: 20px;
+}
+#senhaL{
+    color: navajowhite;
+    position: absolute;
+    left: 475px;
+    top:  455px;
+    font-size: 20px;
+} 
+#btn1{
+  color: #8B4513;
+  background-color: NavajoWhite;
+  font-weight: bold;
+  font-family: Mustica, Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+  border: 0px;
+
+}
+
+#btn1:hover{
+  background-color: green;
+  border: 2px solid white;
+  color: white;
+}
+
+#btn2{
+  color: #8B4513;
+  background-color: NavajoWhite;
+  font-weight: bold;
+  font-family: Mustica, Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+  border: 0px;
+
+}
+
+#btn2:hover{
+  background-color: white;
+  border: 2px solid royalblue;
+  color: royalblue;
+}
+.basetext{
+  /*position: absolute; top: 800px; left: 50%; transform: translate(-50%, -50%);*/
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  bottom: 10px;
+  font-size: 85px;
+  color: #8B4513;
+ padding: 0px;
+}
+.basetext > span {
+  color: navajowhite;
+  text-transform: uppercase;
+  font-size: 100px;
+  background-color: #8B4513;
+  padding: 0px;
+  border-radius: 5px;
+
+}
+.imgChef {
+  
+  /*position: relative; left:71%; top:42%; width: 27%*/
+  width: 430px;
+  height: 430px;
+  position: relative;
+  left: 650px;
+  top: 100px;
+  margin: 0px;
+  padding: 0px;
+
+}
+.fundo
+{position: absolute;
+  width: 100%;
+  height: 541px;
+  top:  1200px;
+  background-color: navajowhite;
+padding: 0px;
+margin: 0px;
+border-top: 5px solid #8B4513;
+}
