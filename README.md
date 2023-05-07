@@ -1,2 +1,2 @@
-# Repositório de Projetos da Faculdade
-Aqui ficarão todos os projetos realizados durante o curso de Sistemas de Informação.
+# NoHungry
+Um projeto de uma disciplina da faculdade que consistia em um site desenvolvido com as tecnologias  HTML, CSS, Bootstrap e Java com o intuito de atender as demandas de um delivery.
