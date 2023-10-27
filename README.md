@@ -5,6 +5,7 @@ Um projeto de uma disciplina da faculdade que consistia em um site desenvolvido 
 - HTML
 - CSS
 - Bootstrap
+- Apache Tomcat
 
 Página inicial:
 ![página_inicial_NoHungry](https://user-images.githubusercontent.com/92160378/236708238-dd170082-71aa-43b6-99cf-a13144407897.png)
